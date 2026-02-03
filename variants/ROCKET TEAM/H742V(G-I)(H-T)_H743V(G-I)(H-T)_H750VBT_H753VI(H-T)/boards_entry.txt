@@ -1,0 +1,14 @@
+# This file help to add generic board entry.
+# upload.maximum_size and product_line have to be verified
+# and changed if needed.
+# See: https://github.com/stm32duino/Arduino_Core_STM32/wiki/Add-a-new-variant-%28board%29
+
+
+# FC/GND STATION UC
+GenH7.menu.pnum.GENERIC_H742VITX=FC/GND STATION UC
+GenH7.menu.pnum.GENERIC_H742VITX.upload.maximum_size=2097152
+GenH7.menu.pnum.GENERIC_H742VITX.upload.maximum_data_size=884736
+GenH7.menu.pnum.GENERIC_H742VITX.build.board=GENERIC_H742VITX
+GenH7.menu.pnum.GENERIC_H742VITX.build.product_line=STM32H742xx
+GenH7.menu.pnum.GENERIC_H742VITX.build.variant=STM32H7xx/H742V(G-I)(H-T)_H743V(G-I)(H-T)_H750VBT_H753VI(H-T)
+GenH7.menu.pnum.GENERIC_H742VITX.debug.svd_file={runtime.tools.STM32_SVD.path}/svd/STM32H7xx/STM32H742.svd
