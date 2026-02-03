@@ -9750,6 +9750,15 @@ GenH7.menu.pnum.GENERIC_H742VITX.build.product_line=STM32H742xx
 GenH7.menu.pnum.GENERIC_H742VITX.build.variant=STM32H7xx/H742V(G-I)(H-T)_H743V(G-I)(H-T)_H750VBT_H753VI(H-T)
 GenH7.menu.pnum.GENERIC_H742VITX.debug.svd_file={runtime.tools.STM32_SVD.path}/svd/STM32H7xx/STM32H742.svd
 
+# Rocket Team H742VITx
+GenH7.menu.pnum.GENERIC_H742VITX=Rocket Team H742VITx
+GenH7.menu.pnum.GENERIC_H742VITX.upload.maximum_size=2097152
+GenH7.menu.pnum.GENERIC_H742VITX.upload.maximum_data_size=524288
+GenH7.menu.pnum.GENERIC_H742VITX.build.board=RT_H742VITX
+GenH7.menu.pnum.GENERIC_H742VITX.build.product_line=STM32H742xx
+GenH7.menu.pnum.GENERIC_H742VITX.build.variant=ROCKET_TEAM/FC
+GenH7.menu.pnum.GENERIC_H742VITX.debug.svd_file={runtime.tools.STM32_SVD.path}/svd/STM32H7xx/STM32H742.svd
+
 # Generic H742XGHx
 GenH7.menu.pnum.GENERIC_H742XGHX=Generic H742XGHx
 GenH7.menu.pnum.GENERIC_H742XGHX.upload.maximum_size=1048576
